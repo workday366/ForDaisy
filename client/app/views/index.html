@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+  <body ng-app="Lover">
+
+    <div class="container">
+       <!-- <div class="col-md-6">
+          <!-- Add a ui-sref property to the anchor tags to allow navigation between different states -->
+         <!-- <nav>
+            <ul class="nav nav-pills">
+              <li><a ui-sref="listings.list">List View</a></li>
+              <li><a ui-sref="listings.map">Map View</a></li>
+              <li><a ui-sref="listings.create">Create New Listing</a></li>
+            </ul>
+          </nav>
+
+        </div>
+        -->
+      </div>
+
+    </div>
+    <!-- Dependencies -->
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js" ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+    <!-- <script src="/public/lib/angular/angular.js"></script>
+    <script src="/public/lib/angular-ui-router/release/angular-ui-router.js"></script> -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-simple-logger/0.1.7/angular-simple-logger.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.4.1/angular-google-maps.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.4.0/wavesurfer.min.js"></script>
+    <!-- Application Source Code -->
+    <script src="app/app.js"></script>
+    <script src="app/config/expressing.client.routes.js"></script>
+    <script src="app/factories/expressing.client.factory.js"></script>
+    <script src="app/controllers/expressing.client.controller.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAKELNyfvHExvGPd2JooBePmsxC-FbC1OA"
+    async defer></script>
+    <script src="build/resonance-audio.min.js"></script>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/jeromeetienne/ar.js/master/aframe/build/aframe-ar.js"></script>
+    <script>
+    THREEx.ArToolkitContext.baseURL = 'https://rawgit.com/jeromeetienne/ar.js/master/three.js/'</script>
+    <a-scene embedded artoolkit='sourceType: webcam;'>
+      <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
+      <a-marker-camera preset='hiro'></a-marker-camera>
+    </a-scene>
+  </body>
+</html>
