@@ -1,0 +1,1563 @@
+{
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0"
+        },
+        "version": "1.0"
+    },
+    "glExtensionsUsed": [],
+    "nodes": {
+        "nodes_Armature_mixamorig:Head": {
+            "children": [
+                "nodes_Armature_mixamorig:HeadTop_End",
+                "nodes_Armature_mixamorig:RightEye",
+                "nodes_Armature_mixamorig:LeftEye"
+            ],
+            "jointName": "nodes_Armature_mixamorig:Head",
+            "name": "Armature_mixamorig:Head",
+            "rotation": [
+                8.37309421797272e-09,
+                -1.0044483129552854e-17,
+                -2.943664756394071e-10,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -0.010661205276846886,
+                10.043853759765625,
+                2.6642842292785645
+            ]
+        },
+        "nodes_Armature_mixamorig:HeadTop_End": {
+            "jointName": "nodes_Armature_mixamorig:HeadTop_End",
+            "name": "Armature_mixamorig:HeadTop_End",
+            "rotation": [
+                -1.674618843594544e-08,
+                5.605813764619832e-18,
+                -3.2707392350062037e-11,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0019976331386715174,
+                18.415481567382812,
+                7.6602983474731445
+            ]
+        },
+        "nodes_Armature_mixamorig:Hips": {
+            "children": [
+                "nodes_Armature_mixamorig:Spine",
+                "nodes_Armature_mixamorig:RightUpLeg",
+                "nodes_Armature_mixamorig:LeftUpLeg"
+            ],
+            "jointName": "nodes_Armature_mixamorig:Hips",
+            "name": "Armature_mixamorig:Hips",
+            "rotation": [
+                0.0,
+                0.7071068286895752,
+                0.7071068286895752,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.03447069227695465,
+                -0.31887227296829224,
+                103.78634643554688
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftArm": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftForeArm"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftArm",
+            "name": "Armature_mixamorig:LeftArm",
+            "rotation": [
+                -0.03269898518919945,
+                -0.0027433193754404783,
+                0.08355475217103958,
+                0.9959627985954285
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation": [
+                -1.1920928955078125e-06,
+                12.0518159866333,
+                1.6570091247558594e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftEye": {
+            "jointName": "nodes_Armature_mixamorig:LeftEye",
+            "name": "Armature_mixamorig:LeftEye",
+            "rotation": [
+                4.718617790641958e-16,
+                2.4702646775729945e-18,
+                4.194468773622873e-17,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                3.9419708251953125,
+                6.9563140869140625,
+                8.105161666870117
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftFoot": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftToeBase"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftFoot",
+            "name": "Armature_mixamorig:LeftFoot",
+            "rotation": [
+                0.3644585609436035,
+                -0.002892841352149844,
+                0.0011322108330205083,
+                0.931214451789856
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999998211860657
+            ],
+            "translation": [
+                -3.7904828786849976e-07,
+                42.78218460083008,
+                4.3120235204696655e-07
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftForeArm": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHand"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftForeArm",
+            "name": "Armature_mixamorig:LeftForeArm",
+            "rotation": [
+                0.00643441965803504,
+                0.0003627884725574404,
+                0.056247882544994354,
+                0.9983960390090942
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                -2.384185791015625e-06,
+                26.77155876159668,
+                -5.960464477539062e-07
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHand": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandMiddle1",
+                "nodes_Armature_mixamorig:LeftHandThumb1",
+                "nodes_Armature_mixamorig:LeftHandIndex1",
+                "nodes_Armature_mixamorig:LeftHandRing1",
+                "nodes_Armature_mixamorig:LeftHandPinky1"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHand",
+            "name": "Armature_mixamorig:LeftHand",
+            "rotation": [
+                0.06762490421533585,
+                -0.15569806098937988,
+                -0.037417925894260406,
+                0.9847766757011414
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -2.1457672119140625e-06,
+                19.6259822845459,
+                2.205371856689453e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandIndex1": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandIndex2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandIndex1",
+            "name": "Armature_mixamorig:LeftHandIndex1",
+            "rotation": [
+                0.046887971460819244,
+                0.0035068332217633724,
+                0.07448824495077133,
+                0.9961128234863281
+            ],
+            "scale": [
+                0.9999998211860657,
+                0.9999999403953552,
+                0.9999998807907104
+            ],
+            "translation": [
+                -2.500868558883667,
+                7.6711554527282715,
+                0.08975762128829956
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandIndex2": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandIndex3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandIndex2",
+            "name": "Armature_mixamorig:LeftHandIndex2",
+            "rotation": [
+                0.035672709345817566,
+                6.150644082936196e-08,
+                4.100429009668005e-07,
+                0.9993635416030884
+            ],
+            "scale": [
+                1.0,
+                1.0000001192092896,
+                1.0
+            ],
+            "translation": [
+                0.05073976516723633,
+                2.8602843284606934,
+                -1.1742115020751953e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandIndex3": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandIndex4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandIndex3",
+            "name": "Armature_mixamorig:LeftHandIndex3",
+            "rotation": [
+                -0.01077636331319809,
+                -2.808100703077798e-07,
+                -2.989719121160306e-07,
+                0.9999419450759888
+            ],
+            "scale": [
+                1.0,
+                1.0000001192092896,
+                1.0
+            ],
+            "translation": [
+                -0.10237383842468262,
+                2.390089988708496,
+                1.2248754501342773e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandIndex4": {
+            "jointName": "nodes_Armature_mixamorig:LeftHandIndex4",
+            "name": "Armature_mixamorig:LeftHandIndex4",
+            "rotation": [
+                9.359791874885559e-08,
+                3.725290298461914e-09,
+                -9.313227522511625e-09,
+                1.0
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                0.05162835121154785,
+                1.8654979467391968,
+                -2.384185791015625e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandMiddle1": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandMiddle2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandMiddle1",
+            "name": "Armature_mixamorig:LeftHandMiddle1",
+            "rotation": [
+                0.001068741432391107,
+                3.530325193423778e-05,
+                0.03270114213228226,
+                0.9994646310806274
+            ],
+            "scale": [
+                1.0,
+                0.9999998807907104,
+                0.9999998807907104
+            ],
+            "translation": [
+                -0.7306256294250488,
+                8.336616516113281,
+                -0.05283761024475098
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandMiddle2": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandMiddle3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandMiddle2",
+            "name": "Armature_mixamorig:LeftHandMiddle2",
+            "rotation": [
+                0.05201830342411995,
+                1.833112683868876e-08,
+                -2.7348059461473895e-07,
+                0.9986461400985718
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0000001192092896
+            ],
+            "translation": [
+                -0.10709244012832642,
+                2.906743049621582,
+                1.0192394256591797e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandMiddle3": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandMiddle4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandMiddle3",
+            "name": "Armature_mixamorig:LeftHandMiddle3",
+            "rotation": [
+                -0.0492071732878685,
+                -7.33723268808717e-08,
+                3.778762049932993e-07,
+                0.9987886548042297
+            ],
+            "scale": [
+                1.0,
+                1.0000001192092896,
+                1.0
+            ],
+            "translation": [
+                0.06959700584411621,
+                2.141629695892334,
+                1.1920928955078125e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandMiddle4": {
+            "jointName": "nodes_Armature_mixamorig:LeftHandMiddle4",
+            "name": "Armature_mixamorig:LeftHandMiddle4",
+            "rotation": [
+                3.8300640881061554e-08,
+                -5.005858838558197e-09,
+                -6.984919309616089e-09,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.03749603033065796,
+                2.193561315536499,
+                3.832578659057617e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandPinky1": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandPinky2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandPinky1",
+            "name": "Armature_mixamorig:LeftHandPinky1",
+            "rotation": [
+                -0.008452143520116806,
+                0.0006713980692438781,
+                -0.07921014726161957,
+                0.9968218803405762
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation": [
+                2.418900489807129,
+                7.535377502441406,
+                0.1030263900756836
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandPinky2": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandPinky3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandPinky2",
+            "name": "Armature_mixamorig:LeftHandPinky2",
+            "rotation": [
+                0.021492628380656242,
+                2.929686218067218e-07,
+                2.282267246300762e-07,
+                0.9997690320014954
+            ],
+            "scale": [
+                1.0,
+                1.000000238418579,
+                1.0
+            ],
+            "translation": [
+                -0.029007911682128906,
+                2.729736804962158,
+                2.0265579223632812e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandPinky3": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandPinky4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandPinky3",
+            "name": "Armature_mixamorig:LeftHandPinky3",
+            "rotation": [
+                -0.033366426825523376,
+                -2.8980269917155965e-07,
+                6.709259992021543e-08,
+                0.9994432926177979
+            ],
+            "scale": [
+                0.9999998807907104,
+                0.9999998807907104,
+                0.9999999403953552
+            ],
+            "translation": [
+                0.15168476104736328,
+                1.437583565711975,
+                -3.337860107421875e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandPinky4": {
+            "jointName": "nodes_Armature_mixamorig:LeftHandPinky4",
+            "name": "Armature_mixamorig:LeftHandPinky4",
+            "rotation": [
+                3.2596294552433847e-09,
+                -1.3969839729455202e-09,
+                -1.1175871783564162e-08,
+                1.0
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation": [
+                -0.12267875671386719,
+                1.5271683931350708,
+                -6.198883056640625e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandRing1": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandRing2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandRing1",
+            "name": "Armature_mixamorig:LeftHandRing1",
+            "rotation": [
+                -0.018176337704062462,
+                0.0006806651945225894,
+                -0.037412840873003006,
+                0.999134361743927
+            ],
+            "scale": [
+                0.9999998807907104,
+                1.0,
+                0.9999998211860657
+            ],
+            "translation": [
+                0.8125767707824707,
+                8.107988357543945,
+                -0.07795894145965576
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandRing2": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandRing3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandRing2",
+            "name": "Armature_mixamorig:LeftHandRing2",
+            "rotation": [
+                0.049788832664489746,
+                -7.063528784101436e-08,
+                -2.000167569349287e-07,
+                0.9987597465515137
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -0.07596921920776367,
+                2.5103070735931396,
+                1.1920928955078125e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandRing3": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandRing4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandRing3",
+            "name": "Armature_mixamorig:LeftHandRing3",
+            "rotation": [
+                0.007805135101079941,
+                3.306295681682059e-08,
+                1.8533884826865688e-07,
+                0.9999695420265198
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation": [
+                0.026703357696533203,
+                1.8667411804199219,
+                5.841255187988281e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandRing4": {
+            "jointName": "nodes_Armature_mixamorig:LeftHandRing4",
+            "name": "Armature_mixamorig:LeftHandRing4",
+            "rotation": [
+                6.007030606269836e-08,
+                4.6566128730773926e-09,
+                -1.6763806343078613e-08,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0000001192092896,
+                0.9999999403953552
+            ],
+            "translation": [
+                0.049259185791015625,
+                2.3348405361175537,
+                2.0623207092285156e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandThumb1": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandThumb2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandThumb1",
+            "name": "Armature_mixamorig:LeftHandThumb1",
+            "rotation": [
+                0.16848322749137878,
+                0.05576327443122864,
+                0.30921250581741333,
+                0.9342866539955139
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999998211860657,
+                0.9999999403953552
+            ],
+            "translation": [
+                -1.675849437713623,
+                2.435418128967285,
+                1.1113977432250977
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandThumb2": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandThumb3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandThumb2",
+            "name": "Armature_mixamorig:LeftHandThumb2",
+            "rotation": [
+                0.03270602598786354,
+                2.3575073271331348e-07,
+                4.659105456994439e-07,
+                0.9994650483131409
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                0.002482175827026367,
+                2.8760743141174316,
+                2.51084566116333e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandThumb3": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftHandThumb4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftHandThumb3",
+            "name": "Armature_mixamorig:LeftHandThumb3",
+            "rotation": [
+                -0.024875544011592865,
+                -5.291549314279109e-07,
+                -8.775774631430977e-07,
+                0.999690592288971
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation": [
+                0.19810926914215088,
+                2.943143129348755,
+                -6.9588422775268555e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftHandThumb4": {
+            "jointName": "nodes_Armature_mixamorig:LeftHandThumb4",
+            "name": "Armature_mixamorig:LeftHandThumb4",
+            "rotation": [
+                -2.7008354663848877e-08,
+                -1.8626447051417472e-09,
+                1.4901161193847656e-08,
+                1.0
+            ],
+            "scale": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -0.20059427618980408,
+                2.1359033584594727,
+                -1.0682269930839539e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftLeg": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftFoot"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftLeg",
+            "name": "Armature_mixamorig:LeftLeg",
+            "rotation": [
+                -0.03624042496085167,
+                -0.0001743030152283609,
+                0.004939030855894089,
+                0.9993308782577515
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                7.948838174343109e-07,
+                42.9583625793457,
+                6.772315828129649e-07
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftShoulder": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftArm"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftShoulder",
+            "name": "Armature_mixamorig:LeftShoulder",
+            "rotation": [
+                0.4970719814300537,
+                0.6012269854545593,
+                -0.5047099590301514,
+                0.36974775791168213
+            ],
+            "scale": [
+                1.0,
+                1.0000001192092896,
+                1.0
+            ],
+            "translation": [
+                5.136678695678711,
+                9.245311737060547,
+                0.9314910769462585
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftToeBase": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftToe_End"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftToeBase",
+            "name": "Armature_mixamorig:LeftToeBase",
+            "rotation": [
+                0.46719518303871155,
+                -0.00853754486888647,
+                0.004511594772338867,
+                0.8841015100479126
+            ],
+            "scale": [
+                1.0,
+                1.0000001192092896,
+                1.000000238418579
+            ],
+            "translation": [
+                9.480863809585571e-07,
+                13.978097915649414,
+                -3.2782554626464844e-07
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftToe_End": {
+            "jointName": "nodes_Armature_mixamorig:LeftToe_End",
+            "name": "Armature_mixamorig:LeftToe_End",
+            "rotation": [
+                4.831235855817795e-09,
+                -1.28275141619838e-08,
+                -4.385220009339719e-08,
+                1.0
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                9.313225746154785e-08,
+                7.53307580947876,
+                1.043081283569336e-07
+            ]
+        },
+        "nodes_Armature_mixamorig:LeftUpLeg": {
+            "children": [
+                "nodes_Armature_mixamorig:LeftLeg"
+            ],
+            "jointName": "nodes_Armature_mixamorig:LeftUpLeg",
+            "name": "Armature_mixamorig:LeftUpLeg",
+            "rotation": [
+                0.0002580784203018993,
+                -0.02737000212073326,
+                0.999580442905426,
+                0.009481496177613735
+            ],
+            "scale": [
+                0.9999955296516418,
+                0.9999998807907104,
+                0.9999622702598572
+            ],
+            "translation": [
+                9.178380012512207,
+                -6.462059020996094,
+                -0.34143775701522827
+            ]
+        },
+        "nodes_Armature_mixamorig:Neck": {
+            "children": [
+                "nodes_Armature_mixamorig:Head"
+            ],
+            "jointName": "nodes_Armature_mixamorig:Neck",
+            "name": "Armature_mixamorig:Neck",
+            "rotation": [
+                0.03379622474312782,
+                0.00019202761177439243,
+                0.0034050617832690477,
+                0.9994229674339294
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                1.0000001192092896
+            ],
+            "translation": [
+                -0.11888691037893295,
+                15.10225772857666,
+                1.5029605627059937
+            ]
+        },
+        "nodes_Armature_mixamorig:RightArm": {
+            "children": [
+                "nodes_Armature_mixamorig:RightForeArm"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightArm",
+            "name": "Armature_mixamorig:RightArm",
+            "rotation": [
+                -0.031057942658662796,
+                0.0027804658748209476,
+                -0.08912377059459686,
+                0.9955323338508606
+            ],
+            "scale": [
+                0.9999998807907104,
+                1.0,
+                0.9999998807907104
+            ],
+            "translation": [
+                1.9073486328125e-06,
+                11.934676170349121,
+                3.4570693969726562e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightEye": {
+            "jointName": "nodes_Armature_mixamorig:RightEye",
+            "name": "Armature_mixamorig:RightEye",
+            "rotation": [
+                4.718617790641958e-16,
+                2.4702646775729945e-18,
+                4.194468773622873e-17,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -3.932532548904419,
+                6.9490509033203125,
+                8.110342979431152
+            ]
+        },
+        "nodes_Armature_mixamorig:RightFoot": {
+            "children": [
+                "nodes_Armature_mixamorig:RightToeBase"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightFoot",
+            "name": "Armature_mixamorig:RightFoot",
+            "rotation": [
+                0.36414021253585815,
+                -0.03625597059726715,
+                0.014187324792146683,
+                0.9305300116539001
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -6.009358912706375e-07,
+                42.784393310546875,
+                -4.2194733396172523e-07
+            ]
+        },
+        "nodes_Armature_mixamorig:RightForeArm": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHand"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightForeArm",
+            "name": "Armature_mixamorig:RightForeArm",
+            "rotation": [
+                0.009154608473181725,
+                -0.00046779055264778435,
+                -0.05102923512458801,
+                0.9986550807952881
+            ],
+            "scale": [
+                1.0,
+                1.0000001192092896,
+                1.0
+            ],
+            "translation": [
+                1.0728836059570312e-06,
+                26.972806930541992,
+                -2.4199485778808594e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHand": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandMiddle1",
+                "nodes_Armature_mixamorig:RightHandThumb1",
+                "nodes_Armature_mixamorig:RightHandIndex1",
+                "nodes_Armature_mixamorig:RightHandRing1",
+                "nodes_Armature_mixamorig:RightHandPinky1"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHand",
+            "name": "Armature_mixamorig:RightHand",
+            "rotation": [
+                0.06705207377672195,
+                0.1412486582994461,
+                0.03848709166049957,
+                0.986950695514679
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -4.76837158203125e-07,
+                19.647573471069336,
+                3.725290298461914e-07
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandIndex1": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandIndex2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandIndex1",
+            "name": "Armature_mixamorig:RightHandIndex1",
+            "rotation": [
+                0.04685850441455841,
+                -0.0035146696027368307,
+                -0.07471724599599838,
+                0.9960970282554626
+            ],
+            "scale": [
+                0.9999998211860657,
+                0.9999997019767761,
+                0.9999998807907104
+            ],
+            "translation": [
+                2.5008420944213867,
+                7.669708251953125,
+                0.09019835293292999
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandIndex2": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandIndex3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandIndex2",
+            "name": "Armature_mixamorig:RightHandIndex2",
+            "rotation": [
+                0.03608002886176109,
+                7.5486290995741e-08,
+                1.6495152976858662e-07,
+                0.9993489980697632
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation": [
+                -0.05630826950073242,
+                2.8613595962524414,
+                4.023313522338867e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandIndex3": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandIndex4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandIndex3",
+            "name": "Armature_mixamorig:RightHandIndex3",
+            "rotation": [
+                -0.011948307044804096,
+                7.451113503975648e-09,
+                -5.429998850559059e-07,
+                0.9999287128448486
+            ],
+            "scale": [
+                1.0,
+                1.0000001192092896,
+                1.0
+            ],
+            "translation": [
+                0.10129094123840332,
+                2.3912315368652344,
+                -2.9325485229492188e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandIndex4": {
+            "jointName": "nodes_Armature_mixamorig:RightHandIndex4",
+            "name": "Armature_mixamorig:RightHandIndex4",
+            "rotation": [
+                1.2991949915885925e-07,
+                9.313227966600834e-10,
+                -2.7939677238464355e-09,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0000001192092896
+            ],
+            "translation": [
+                -0.04497957229614258,
+                1.8610411882400513,
+                -1.0192394256591797e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandMiddle1": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandMiddle2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandMiddle1",
+            "name": "Armature_mixamorig:RightHandMiddle1",
+            "rotation": [
+                0.0012757129734382033,
+                -4.155204078415409e-05,
+                -0.032624419778585434,
+                0.9994668960571289
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999998807907104
+            ],
+            "translation": [
+                0.7324756979942322,
+                8.3363037109375,
+                -0.052669644355773926
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandMiddle2": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandMiddle3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandMiddle2",
+            "name": "Armature_mixamorig:RightHandMiddle2",
+            "rotation": [
+                0.05198189988732338,
+                -1.5317682766635698e-07,
+                -9.74549649868095e-08,
+                0.9986480474472046
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.09972700476646423,
+                2.9063491821289062,
+                -9.130686521530151e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandMiddle3": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandMiddle4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandMiddle3",
+            "name": "Armature_mixamorig:RightHandMiddle3",
+            "rotation": [
+                -0.04946142062544823,
+                7.76276394276465e-08,
+                -2.359134043672384e-07,
+                0.9987761378288269
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                0.9999998807907104
+            ],
+            "translation": [
+                -0.06572741270065308,
+                2.1417124271392822,
+                2.793222665786743e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandMiddle4": {
+            "jointName": "nodes_Armature_mixamorig:RightHandMiddle4",
+            "name": "Armature_mixamorig:RightHandMiddle4",
+            "rotation": [
+                1.3038517820973539e-08,
+                4.6566133171666024e-09,
+                -1.862645593320167e-09,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation": [
+                -0.033999741077423096,
+                2.1921613216400146,
+                1.7657876014709473e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandPinky1": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandPinky2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandPinky1",
+            "name": "Armature_mixamorig:RightHandPinky1",
+            "rotation": [
+                -0.008720519952476025,
+                -0.0006889561773277819,
+                0.07873678207397461,
+                0.9968570470809937
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999998807907104
+            ],
+            "translation": [
+                -2.4215784072875977,
+                7.536268711090088,
+                0.10360202193260193
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandPinky2": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandPinky3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandPinky2",
+            "name": "Armature_mixamorig:RightHandPinky2",
+            "rotation": [
+                0.0217940341681242,
+                -8.756511959973068e-08,
+                1.3460808645504585e-07,
+                0.9997625350952148
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.026093721389770508,
+                2.727384090423584,
+                3.039836883544922e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandPinky3": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandPinky4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandPinky3",
+            "name": "Armature_mixamorig:RightHandPinky3",
+            "rotation": [
+                -0.03224451467394829,
+                1.031976424314962e-07,
+                -2.664968405952095e-07,
+                0.9994800090789795
+            ],
+            "scale": [
+                1.0,
+                0.9999998807907104,
+                0.9999998807907104
+            ],
+            "translation": [
+                -0.15285682678222656,
+                1.4378962516784668,
+                9.298324584960938e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandPinky4": {
+            "jointName": "nodes_Armature_mixamorig:RightHandPinky4",
+            "name": "Armature_mixamorig:RightHandPinky4",
+            "rotation": [
+                -4.423782584694891e-08,
+                -9.522774035986004e-08,
+                -8.47503613954359e-08,
+                1.0
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                0.12676143646240234,
+                1.5272893905639648,
+                -1.0251998901367188e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandRing1": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandRing2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandRing1",
+            "name": "Armature_mixamorig:RightHandRing1",
+            "rotation": [
+                -0.018517736345529556,
+                -0.0006875386461615562,
+                0.037093181163072586,
+                0.9991400241851807
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation": [
+                -0.8117473125457764,
+                8.109040260314941,
+                -0.07867246866226196
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandRing2": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandRing3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandRing2",
+            "name": "Armature_mixamorig:RightHandRing2",
+            "rotation": [
+                0.050031255930662155,
+                -4.242832218892545e-08,
+                -1.498978434710807e-07,
+                0.9987477660179138
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999998807907104
+            ],
+            "translation": [
+                0.06894171237945557,
+                2.508455514907837,
+                2.5004148483276367e-05
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandRing3": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandRing4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandRing3",
+            "name": "Armature_mixamorig:RightHandRing3",
+            "rotation": [
+                0.009045756421983242,
+                1.7230172844051594e-08,
+                4.1911230042046554e-09,
+                0.9999591112136841
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation": [
+                -0.025940299034118652,
+                1.8674938678741455,
+                -6.720423698425293e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandRing4": {
+            "jointName": "nodes_Armature_mixamorig:RightHandRing4",
+            "name": "Armature_mixamorig:RightHandRing4",
+            "rotation": [
+                9.781797416508198e-08,
+                -2.3283064365386963e-10,
+                1.3504177331924438e-08,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -0.043000102043151855,
+                2.335698127746582,
+                5.7220458984375e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandThumb1": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandThumb2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandThumb1",
+            "name": "Armature_mixamorig:RightHandThumb1",
+            "rotation": [
+                0.16873212158679962,
+                -0.05584516376256943,
+                -0.3092074692249298,
+                0.9342384934425354
+            ],
+            "scale": [
+                0.9999998807907104,
+                1.0000001192092896,
+                0.9999999403953552
+            ],
+            "translation": [
+                1.6756763458251953,
+                2.436077833175659,
+                1.1114685535430908
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandThumb2": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandThumb3"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandThumb2",
+            "name": "Armature_mixamorig:RightHandThumb2",
+            "rotation": [
+                0.03248489275574684,
+                -3.63407593795273e-07,
+                -1.7890835124489968e-07,
+                0.9994722604751587
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                -0.002469778060913086,
+                2.87636137008667,
+                2.682209014892578e-07
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandThumb3": {
+            "children": [
+                "nodes_Armature_mixamorig:RightHandThumb4"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightHandThumb3",
+            "name": "Armature_mixamorig:RightHandThumb3",
+            "rotation": [
+                -0.024543864652514458,
+                3.335139524551778e-07,
+                1.3228765283201938e-07,
+                0.9996987581253052
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                -0.20323634147644043,
+                2.942172050476074,
+                6.139278411865234e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightHandThumb4": {
+            "jointName": "nodes_Armature_mixamorig:RightHandThumb4",
+            "name": "Armature_mixamorig:RightHandThumb4",
+            "rotation": [
+                -2.220446049250313e-16,
+                1.4901162970204496e-08,
+                1.862645682138009e-08,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                0.9999998211860657,
+                0.9999999403953552
+            ],
+            "translation": [
+                0.20569801330566406,
+                2.129835367202759,
+                -6.377696990966797e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightLeg": {
+            "children": [
+                "nodes_Armature_mixamorig:RightFoot"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightLeg",
+            "name": "Armature_mixamorig:RightLeg",
+            "rotation": [
+                -0.037797410041093826,
+                0.0003252483147662133,
+                -0.00897342897951603,
+                0.9992451071739197
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation": [
+                1.5739351511001587e-07,
+                43.1351432800293,
+                -3.0449882615357637e-09
+            ]
+        },
+        "nodes_Armature_mixamorig:RightShoulder": {
+            "children": [
+                "nodes_Armature_mixamorig:RightArm"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightShoulder",
+            "name": "Armature_mixamorig:RightShoulder",
+            "rotation": [
+                0.5164669156074524,
+                -0.5744656920433044,
+                0.4943680167198181,
+                0.39856159687042236
+            ],
+            "scale": [
+                1.0000001192092896,
+                0.9999999403953552,
+                1.0000001192092896
+            ],
+            "translation": [
+                -5.237951278686523,
+                9.128061294555664,
+                1.0735692977905273
+            ]
+        },
+        "nodes_Armature_mixamorig:RightToeBase": {
+            "children": [
+                "nodes_Armature_mixamorig:RightToe_End"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightToeBase",
+            "name": "Armature_mixamorig:RightToeBase",
+            "rotation": [
+                0.4672148823738098,
+                0.008503727614879608,
+                -0.004494020249694586,
+                0.8840914964675903
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                9.452924132347107e-08,
+                13.977941513061523,
+                -2.16066837310791e-06
+            ]
+        },
+        "nodes_Armature_mixamorig:RightToe_End": {
+            "jointName": "nodes_Armature_mixamorig:RightToe_End",
+            "name": "Armature_mixamorig:RightToe_End",
+            "rotation": [
+                -2.7648643374789117e-09,
+                2.6600904590168284e-08,
+                -1.2434613338996314e-08,
+                1.0
+            ],
+            "scale": [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation": [
+                5.19677996635437e-07,
+                7.533735275268555,
+                7.450580596923828e-08
+            ]
+        },
+        "nodes_Armature_mixamorig:RightUpLeg": {
+            "children": [
+                "nodes_Armature_mixamorig:RightLeg"
+            ],
+            "jointName": "nodes_Armature_mixamorig:RightUpLeg",
+            "name": "Armature_mixamorig:RightUpLeg",
+            "rotation": [
+                -0.0002224385243607685,
+                -0.025952963158488274,
+                0.9996293187141418,
+                -0.0082253348082304
+            ],
+            "scale": [
+                0.9999966025352478,
+                0.9999999403953552,
+                0.999967098236084
+            ],
+            "translation": [
+                -9.052838325500488,
+                -6.2754669189453125,
+                0.2480192482471466
+            ]
+        },
+        "nodes_Armature_mixamorig:Spine": {
+            "children": [
+                "nodes_Armature_mixamorig:Spine1"
+            ],
+            "jointName": "nodes_Armature_mixamorig:Spine",
+            "name": "Armature_mixamorig:Spine",
+            "rotation": [
+                -0.04420054331421852,
+                -2.9155180527595803e-06,
+                6.58966091577895e-05,
+                0.9990227818489075
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                -0.04234408587217331,
+                8.444297790527344,
+                -1.1054844856262207
+            ]
+        },
+        "nodes_Armature_mixamorig:Spine1": {
+            "children": [
+                "nodes_Armature_mixamorig:Spine2"
+            ],
+            "jointName": "nodes_Armature_mixamorig:Spine1",
+            "name": "Armature_mixamorig:Spine1",
+            "rotation": [
+                0.010411811992526054,
+                -3.619369454099797e-05,
+                -0.0034759794361889362,
+                0.9999397397041321
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "translation": [
+                -7.460988271645874e-09,
+                9.787151336669922,
+                1.946715428857715e-07
+            ]
+        },
+        "nodes_Armature_mixamorig:Spine2": {
+            "children": [
+                "nodes_Armature_mixamorig:Neck",
+                "nodes_Armature_mixamorig:LeftShoulder",
+                "nodes_Armature_mixamorig:RightShoulder"
+            ],
+            "jointName": "nodes_Armature_mixamorig:Spine2",
+            "name": "Armature_mixamorig:Spine2",
+            "rotation": [
+                -3.725915576069383e-09,
+                1.5279510989785194e-10,
+                -2.2128006094135344e-09,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0000001192092896
+            ],
+            "translation": [
+                1.8032733350992203e-07,
+                13.028862953186035,
+                1.209719243888685e-06
+            ]
+        },
+        "nodes_Character": {
+            "children": [
+                "nodes_Armature_mixamorig:Hips"
+            ],
+            "name": "Character",
+            "rotation": [
+                -0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    "scene": "scenes_Scene",
+    "scenes": {
+        "scenes_Scene": {
+            "extras": {
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 30
+            },
+            "name": "Scene",
+            "nodes": [
+                "nodes_Character"
+            ]
+        }
+    }
+}
