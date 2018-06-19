@@ -1,5 +1,5 @@
 <!-- include A-Frame obviously -->
-<script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
 <!-- include ar.js for A-Frame -->
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
@@ -9,9 +9,8 @@
     <a-assets>
       <a-asset-item id="kneel" src="/assets/kneel.gltf"></a-asset-item>
     </a-assets>
-
-    <!-- use your gltf model -->
-    <a-entity gltf-model="#kneel"></a-entity>
+    <a-entity gltf-model="#kneel"
+            animation-mixer="clip: Kneel;"></a-entity>
 
     <!-- define a camera which will move according to the marker position -->
     <a-marker-camera type='pattern' url='/assets/pattern-marker.patt'></a-marker-camera>
