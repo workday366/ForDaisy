@@ -1,17 +1,12 @@
 <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
 <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.min.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
-  <a-scene  embedded artoolkit='sourceType: webcam; sourceWidth: 240; sourceHeight: 180;' antialias="true" outline>
-    <a-assets>
-      <a-asset-item id="kneel" src="/img/kneel.gltf"></a-asset-item>
-    </a-assets>
-    <a-marker type='pattern' url='/img/pattern-marker.patt'></a-marker>
-      <a-entity scale="1.0 1.0 1.0">
-        <a-entity mmd='outline: true' afterglow:2.0;>
-          <a-entity scale="1.0 1.0 1.0" gltf-model="#kneel"></a-entity>
-        </a-entity>
-      </a-entity>
+  <a-scene embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;' hidden>
+    <a-asset-item id="airplane_asset_mtl" src="https://raw.githubusercontent.com/workday366/ForDaisy/master/client/img/Kneel.gltf"></a-asset-item>
+    <a-marker url="/img/pattern-marker.patt" id="aframe-scene">
+      <a-entity light="type: hemisphere; color: #fefddd; groundColor: #fefddd; intensity: 1.2"></a-entity>
     </a-marker>
+
     <a-entity camera></a-entity>
   </a-scene>
 </body>
