@@ -2,6 +2,7 @@
 <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
 <!-- include ar.js for A-Frame -->
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene  embedded artoolkit='sourceType: webcam; sourceWidth: 240; sourceHeight: 180;' antialias="true" outline>
   <a-assets>
@@ -10,7 +11,7 @@
   <a-marker type='pattern' url='/img/pattern-marker.patt' size='1'>
     <a-entity scale="1.0 1.0 1.0">
       <a-entity mmd='outline: true' afterglow:2.0;>
-        <a-entity scale="1.0 1.0 1.0" gltf-model="#mymodel" animation-mixer="clip: Take 001;"></a-entity>
+        <a-entity scale="1.0 1.0 1.0" gltf-model="#mymodel" animation-mixer="clip: Take 001; loop: repeat"></a-entity>
       </a-entity>
     </a-entity>
   </a-marker>
