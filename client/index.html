@@ -7,11 +7,15 @@
   <a-scene  embedded artoolkit='sourceType: webcam; sourceWidth: 240; sourceHeight: 180;' antialias="true" outline>
   <a-assets>
     <a-asset-item id="mymodel" src="/img/Begin.gltf_out/Begin.gltf.gltf"></a-asset-item>
+    <a-asset-item id="mymodel1" src="/img/Jumping.gltf_out/Jumping.gltf.gltf"></a-asset-item>
+    <a-asset-item id="mymodel2" src="/img/Kneel.gltf_out/Kneel.gltf.gltf"></a-asset-item>
   </a-assets>
   <a-marker type='pattern' url='/img/pattern-marker.patt' size='1'>
     <a-entity scale="1.0 1.0 1.0">
       <a-entity mmd='outline: true' afterglow:2.0;>
-        <a-entity scale="1.0 1.0 1.0" gltf-model="#mymodel" animation-mixer="clip: Take 001; loop: repeat"></a-entity>
+        <a-entity scale="1.0 1.0 1.0" gltf-model="#mymodel" animation-mixer="clip: Take 001; loop: once"></a-entity>
+        <a-entity scale="1.0 1.0 1.0" gltf-model="#mymodel1" animation-mixer="clip: Take 001; loop: once"></a-entity>
+        <a-entity scale="1.0 1.0 1.0" gltf-model="#mymodel2" animation-mixer="clip: Take 001; loop: once"></a-entity>
       </a-entity>
     </a-entity>
   </a-marker>
